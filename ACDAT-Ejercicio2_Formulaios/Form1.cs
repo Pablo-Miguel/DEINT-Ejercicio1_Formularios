@@ -20,20 +20,39 @@ namespace ACDAT_Ejercicio2_Formulaios
 
         private void btnContar_Click(object sender, EventArgs e)
         {
-            int cont;
+            if (txtCadena.Text.Equals(""))
+            {
+                MessageBox.Show("Campo vacío");
+            }
+            else if (!txtCadena.Text.Contains(cbCaracter.Text))
+            {
+                MessageBox.Show("La cadena no contiene el caracter");
+            }
+            else
+            {
+                int cont;
 
-            cont = txtCadena.Text.Count(c => c.Equals(Char.Parse(cbCaracter.Text)));
+                cont = txtCadena.Text.Count(c => c.Equals(Char.Parse(cbCaracter.Text)));
 
-            txtResultado.Text = $"Numero de veces que sale la vocal {cbCaracter.Text}: {cont}";
+                txtResultado.Text = $"Numero de veces que sale la vocal {cbCaracter.Text}: {cont}";
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            int cont = 0;
+            if (txtCadena.Text.Equals(""))
+            {
+                MessageBox.Show("Campo vacío");
+            }
+            else if (!txtCadena.Text.Contains(cbCaracter.Text))
+            {
+                MessageBox.Show("La cadena no contiene el caracter");
+            }
+            else 
+            {
+                txtResultado.Text = txtCadena.Text.Replace(cbCaracter.Text, "");
+            }
 
-            cont = txtCadena.Text.Count(c => c.Equals(Char.Parse(cbCaracter.Text)));
-
-            txtResultado.Text = cont + "";
         }
     }
 }

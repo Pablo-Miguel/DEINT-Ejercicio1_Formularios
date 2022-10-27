@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEINT-Ejercicio1_Formularios", "DEINT-Ejercicio1_Formularios\DEINT-Ejercicio1_Formularios.csproj", "{938A84C7-2F5A-42D5-AFBB-7D4D62C7814A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACDAT-Ejercicio2_Formulaios", "ACDAT-Ejercicio2_Formulaios\ACDAT-Ejercicio2_Formulaios.csproj", "{5E6DA6EF-F438-43F4-970C-F8D991140D69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEINT-Ejercicio2_Formulaios", "ACDAT-Ejercicio2_Formulaios\DEINT-Ejercicio2_Formulaios.csproj", "{5E6DA6EF-F438-43F4-970C-F8D991140D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEINT-Ejercicio3_Formularios", "DEINT-Ejercicio3_Formularios\DEINT-Ejercicio3_Formularios.csproj", "{193DD9D9-B619-4CBC-97AC-E26F1CE69C75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5E6DA6EF-F438-43F4-970C-F8D991140D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6DA6EF-F438-43F4-970C-F8D991140D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E6DA6EF-F438-43F4-970C-F8D991140D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193DD9D9-B619-4CBC-97AC-E26F1CE69C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193DD9D9-B619-4CBC-97AC-E26F1CE69C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193DD9D9-B619-4CBC-97AC-E26F1CE69C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193DD9D9-B619-4CBC-97AC-E26F1CE69C75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
